@@ -1,5 +1,7 @@
 # PingViewerPY
 
+Install the requirments by opening CMD, set current directory to where `requirements.txt` is, and type `pip install -r requirements.txt`. Written and tested with Python 3.9.0
+
 ## ConstantPing.py
 
 Updates every 500ms and displays in a small console window. Mainly meant for if you have two monitors.
