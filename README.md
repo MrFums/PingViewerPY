@@ -4,7 +4,7 @@ Install the requirments by opening CMD, set current directory to where `requirem
 
 ## ConstantPing.py
 
-Updates every 500ms and displays in a small console window. Mainly meant for if you have two monitors.
+Updates every 500ms and displays your ping in a small console window. Mainly meant for if you have two monitors.
 
 ![image](https://user-images.githubusercontent.com/57535680/123462931-d0f56380-d5e2-11eb-92ca-a0afc7479288.png)
 
