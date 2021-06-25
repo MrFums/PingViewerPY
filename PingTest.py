@@ -1,6 +1,3 @@
-
-
-
 try:
     from tcp_latency import measure_latency
     from statistics import mode
