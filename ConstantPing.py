@@ -2,6 +2,15 @@ from tcp_latency import measure_latency
 import os
 from colorama import Fore, Style
 from time import sleep
+try: #use pip install pywin32
+    # this code makes it so the window is always on top on windows based systems
+    import win32gui
+    import win32con
+
+    hwnd = win32gui.GetForegroundWindow()
+    win32gui.SetWindowPos(hwnd,win32con.HWND_TOPMOST,100,100,200,200,0)
+except:
+    pass
 hostsite = 'google.com'
 def assigncolour(pingnum,category):
     os.system('mode con: cols=20 lines=2')
